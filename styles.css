@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr minmax(800px, 2fr) 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: ". head ."
+                       ". main ."
+                       ". foot .";
+}
+
+header {
+  grid-area: head;
+  display: flex;
+  justify-content: space-between;
+  border: red solid 1px;
+}
+
+main {
+  grid-area: main;
+  border: blue solid 1px;
+}
+
+section {
+  border: green solid 1px;
+}
+
+footer {
+  grid-area: foot;
+  border: purple solid 1px;
+}
