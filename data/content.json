@@ -1,0 +1,59 @@
+{
+  "about": {
+    "study": {
+      "title": "Study",
+      "content": [
+        "Hello, my name's Victor Brandão De Andrade and I'm 21 years old. I'm a computer science student at 'Universidade Federal de Campina Grande' (UFCG). I got in the university in 2018, at that time I knew nothing about computer science or programming, actually I intended to get in the Civil Engineering course, but some friends convinced me to get in the computer science course, because based on what they knew about me, they thought that I'd like to course it. Turned out that I really liked the course."
+      ]
+    },
+    "work": {
+      "title": "Work",
+      "content": [
+        "My first job after I got in the course started in 2020, when I got into a project in a laboratory at the university and I've been working there for almost 2 years. The name of the lab is 'Software Practices Laboratory' (SPLab) and the name of the project is 'Electronic Police' (ePol) which is in partnership with the 'Polícia Federal' (PF).",
+        "I've been working there for almost 2 years now, and I've learned a lot of new things since I've started at this job. I work with Machine Learning and Artificial Intelligence using Python. My goal in the project is create a prototype using Machine Learning and AI to calculate similarity between police documents."
+      ]
+    },
+    "leisure": {
+      "title": "Leisure",
+      "content": [
+        "When I'm not working, I like to watch as many TV shows as I can. I have a lot of streaming services to watch my series and movies. I could make a list of all the shows and movies that I like, but it would be long... I also like to spend time listening to music, especially watching live concerts on YouTube and wondering how amazing would be there watching live, and maybe meeting the singers that I like...",
+        "I like soccer and I cheer for 'São Paulo FC', but the team is terrible these days... So I get angry when I watch the games. I hope the team fix its manage problems as soon as it can, then the team maybe come back on track and starts winning again.",
+        "I like to go out with my friends on the weekends, to spend time together and have fun. One of my favorite places to go is the cinema, because as I said: 'I like to watch as many TV shows as I can', but I also go to bars with my friends even though I don't drink alcohol."
+      ]
+    },
+    "likes": {
+      "title": "Things that I like",
+      "content": [
+        "I love to listen to international singers."
+      ]
+    }
+  },
+  "skills": {
+    "learned": {
+      "title": "I've Learnt So Far",
+      "content": [
+        "Since I've started my course I've learned the procedural and oriented-object paradigms with the languages Python and Java. Since I've started at the lab I've been working only with Python for build Web APIs and Machine Learning."
+      ]
+    },
+    "learning": {
+      "title": "I'm Learning",
+      "content": [
+        "By now I'm learning some advanced algorithms and trying to learn frontend skills, that's why I'm building this web site, to learn how to build a frontend with no frameworks, but only HTML, CSS and JS."
+      ]
+    },
+    "to-learn": {
+      "title": "I'd like to learn",
+      "content": [
+        "I'd like to learn the functional programming language Clojure, because since I've seen the functional paradigm I've became interested in it."
+      ]
+    }
+  },
+  "contact": {
+    "reach": {
+      "title": "Reach to me",
+      "content": [
+
+      ]
+    }
+  }
+}
