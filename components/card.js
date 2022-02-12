@@ -28,10 +28,21 @@ export default class InfoCard extends HTMLElement {
     this.render();
   }
 
+  formatContent() {
+    let formatedContent = [];
+    for (const key in this.content) {
+      formatedContent = formatedContent.concat(this.content[key].map(function(c) {
+        let formatedTag = `<${key}>${c}</${key}>`;
+        if (key === 'a') formatedTag = `<${key} href="${c['href']}">${c['text']}</${key}>`;
+        return formatedTag;
+      }));
+    }
+
+    return formatedContent;
+  }
+
   render() {
-    const renderContent = this.content.map(function (c) {
-      return `<p>${c}</p>`;
-    });
+    const renderContent = this.formatContent();
 
     this.innerHTML = `
     <style>

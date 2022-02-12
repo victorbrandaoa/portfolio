@@ -4,6 +4,9 @@ import CardSection from './components/cardSection.js';
   const main = document.querySelector('main');
 
   const dictSections = {
+    "contact": [
+      "reach"
+    ],
     "skills": [
       "learned",
       "learning",
